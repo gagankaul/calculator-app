@@ -68,6 +68,7 @@ while running:
         value = exponent(num1, num2)
     else:
         print("This is not a valid operation. Try again.")
+        value = "OPP ERROR"
 
     history.append(value)
 
