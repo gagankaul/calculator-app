@@ -72,6 +72,7 @@ while running:
 
     history.append(value)
 
+    #Ask user to quit
     choice = input("Would you like to run the program again (y/n): ")
     if choice != "y":
         print("\nCalculation Summary: ")
@@ -79,5 +80,3 @@ while running:
             print(each)
         print("\nThank you for using the Python Calculator App. Have a nice day!")
         running = False
-    else:
-        running = True
